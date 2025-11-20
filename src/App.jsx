@@ -1,0 +1,7 @@
+import Die from "./Die";
+
+function App() {
+  return <Die val={2} />;
+}
+
+export default App;
