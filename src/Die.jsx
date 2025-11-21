@@ -1,5 +1,7 @@
+import "./Die.css";
+
 const Die = ({ val }) => {
-  return <div>{val}</div>;
+  return <div className="Die">{val}</div>;
 };
 
 export default Die;

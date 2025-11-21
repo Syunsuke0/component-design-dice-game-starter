@@ -1,7 +1,12 @@
-import Die from "./Die";
+import LuckyN from "./LuckyN";
 
-function App() {
-  return <Die val={2} />;
-}
+const App = () => {
+  return (
+    <div>
+      <LuckyN />
+      <LuckyN numDice={3} goal={14} />
+    </div>
+  );
+};
 
 export default App;
