@@ -14,7 +14,8 @@ const LuckyN = ({ numDice = 2, goal = 7 }) => {
         ラッキー{goal} {isWinner && "勝ち!"}
       </h1>
       <Dice dice={dice} />
-      <button onClick={roll}>もう一回振る</button>
+      {/* <button onClick={roll}>もう一回振る</button> */}
+      <Button clickFunc={roll} label="もう一回振る" />
     </main>
   );
 };
