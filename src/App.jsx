@@ -1,10 +1,9 @@
-import LuckyN from "./LuckyN";
+import BoxGrid from "./BoxGrid";
 
 const App = () => {
   return (
     <div>
-      <LuckyN />
-      <LuckyN numDice={3} goal={14} />
+      <BoxGrid />
     </div>
   );
 };
